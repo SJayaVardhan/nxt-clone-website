@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NXT Talks - Access career insights from industry experts at top tech companies">
+    <title>NXT Talks - Career Insights from Industry Experts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://yt3.googleusercontent.com/mFIkzYPq6RfSy0if-b9eU2cfQbCC1aER3bxSxZr9Z1_H48qDgvpmjXQLHif-TI3zviRZmOsv_Q=s900-c-k-c0x00ffffff-no-rj" type="image/x-icon">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+    <label for="theme-toggle" class="theme-toggle-label" aria-label="Toggle dark/light mode">
+        <i class="fas fa-sun theme-icon-light" aria-hidden="true"></i>
+        <i class="fas fa-moon theme-icon-dark" aria-hidden="true"></i>
+    </label>
+
+    <section class="hero">
+        <input type="radio" name="carousel-control" id="slide1" class="carousel-radio" checked>
+        <input type="radio" name="carousel-control" id="slide2" class="carousel-radio">
+        <input type="radio" name="carousel-control" id="slide3" class="carousel-radio">
+        <input type="radio" name="carousel-control" id="slide4" class="carousel-radio">
+        <input type="radio" name="carousel-control" id="slide5" class="carousel-radio">
+
+        <div class="carousel">
+            <header class="header">
+                <div class="logo">
+                    <span class="logo-text">NXT<span class="logo-text-blue">WAVE</span></span>
+                    <span class="logo-by">by NxtWave</span>
+                </div>
+            </header>
+
+            <div class="carousel-inner">
+                <div class="carousel-item" id="item1">
+                    <img src="https://media.licdn.com/dms/image/v2/D5605AQHLg_IOeSGkQg/videocover-low/B56ZYCrkMFGUCM-/0/1743801788291?e=2147483647&v=beta&t=JgtolNg2S1jHF2pD4RLFllfz-EWrUAhSfiqTCz1i3Uk" alt="Programming Excellence Session with Sandeep Gorthi" loading="eager">
+                    <div class="carousel-caption">
+                        <span class="badge">Programming Excellence</span>
+                        <h1>A Manager at Uber <br>Teaches You About <br><span class="highlight">Programming</span></h1>
+                        <div class="presenter">
+                            <span class="presenter-name">Sandeep Gorthi</span>
+                            <span class="presenter-title">Engineering Manager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item2">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E22AQFhb2UMFBRGdQ/feedshare-shrink_800/B4EZXTUBKrH0Ak-/0/1743006995586?e=2147483647&v=beta&t=hco8JPM0sZiFcCbOBGH4-NoL6FPAYih5lXUqR37YS4U" alt="Career Growth Session with Pritesh Malode" loading="lazy">
+                    <div class="carousel-caption">
+                        <span class="badge">Career Growth</span>
+                        <h1>A Sr. Recruiter at Amazon <br>Teaches You About <br><span class="highlight">Acing Interviews</span></h1>
+                        <div class="presenter">
+                            <span class="presenter-name">Pritesh Malode</span>
+                            <span class="presenter-title">Senior Recruiter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item3">
+                    <img src="https://www.medianews4u.com/wp-content/uploads/2021/06/slice-appoints-Siva-Kumar-Tangudu-as-Chief-Technology-Officer.jpg" alt="Technology Leadership Session with Siva Kumar Tangudu" loading="lazy">
+                    <div class="carousel-caption">
+                        <span class="badge">Tech Leadership</span>
+                        <h1>A CTO Reveals <br>Secrets of <br><span class="highlight">Building Tech Teams</span></h1>
+                        <div class="presenter">
+                            <span class="presenter-name">Siva Kumar Tangudu</span>
+                            <span class="presenter-title">Chief Technology Officer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item4">
+                    <img src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/siva-ghani-reddy.png" alt="Growth Strategies Session with Siva Ghani Reddy" loading="lazy">
+                    <div class="carousel-caption">
+                        <span class="badge">Growth Strategies</span>
+                        <h1>Learn Proven Methods for <br><span class="highlight">Scaling Startups</span></h1>
+                        <div class="presenter">
+                            <span class="presenter-name">Siva Ghani Reddy</span>
+                            <span class="presenter-title">Growth Strategist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item5">
+                    <img src="https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/Image73sh-1720417383570.jpg" alt="Executive Insights Session with Sanjay Sehgal" loading="lazy">
+                    <div class="carousel-caption">
+                        <span class="badge">Executive Insights</span>
+                        <h1>A Global CEO Teaches <br>Mastering <br><span class="highlight">Time Management</span></h1>
+                        <div class="presenter">
+                            <span class="presenter-name">Sanjay Sehgal</span>
+                            <span class="presenter-title">CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation Controls -->
+            <div class="carousel-controls">
+                <label for="slide5" class="carousel-control prev" id="prev1" aria-label="Previous slide"><span aria-hidden="true">❮</span></label>
+                <label for="slide2" class="carousel-control next" id="next1" aria-label="Next slide"><span aria-hidden="true">❯</span></label>
+                <label for="slide1" class="carousel-control prev" id="prev2" aria-label="Previous slide"><span aria-hidden="true">❮</span></label>
+                <label for="slide3" class="carousel-control next" id="next2" aria-label="Next slide"><span aria-hidden="true">❯</span></label>
+                <label for="slide2" class="carousel-control prev" id="prev3" aria-label="Previous slide"><span aria-hidden="true">❮</span></label>
+                <label for="slide4" class="carousel-control next" id="next3" aria-label="Next slide"><span aria-hidden="true">❯</span></label>
+                <label for="slide3" class="carousel-control prev" id="prev4" aria-label="Previous slide"><span aria-hidden="true">❮</span></label>
+                <label for="slide5" class="carousel-control next" id="next4" aria-label="Next slide"><span aria-hidden="true">❯</span></label>
+                <label for="slide4" class="carousel-control prev" id="prev5" aria-label="Previous slide"><span aria-hidden="true">❮</span></label>
+                <label for="slide1" class="carousel-control next" id="next5" aria-label="Next slide"><span aria-hidden="true">❯</span></label>
+            </div>
+
+            <!-- Hero Call-to-Action Buttons -->
+            <div class="hero-buttons">
+                <a href="#access" class="btn btn-primary">Claim Free Access</a>
+                <a href="#trailer-modal" class="btn btn-outline">Watch Trailer</a>
+                <p class="hero-footnote">
+                    Get 1 Podcast worth <span class="strikethrough">₹2000</span> <span class="highlight">Free</span>
+                </p>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators" role="tablist">
+                <label for="slide1" class="indicator" role="tab" aria-label="Slide 1" aria-selected="true" tabindex="0"></label>
+                <label for="slide2" class="indicator" role="tab" aria-label="Slide 2" aria-selected="false" tabindex="0"></label>
+                <label for="slide3" class="indicator" role="tab" aria-label="Slide 3" aria-selected="false" tabindex="0"></label>
+                <label for="slide4" class="indicator" role="tab" aria-label="Slide 4" aria-selected="false" tabindex="0"></label>
+                <label for="slide5" class="indicator" role="tab" aria-label="Slide 5" aria-selected="false" tabindex="0"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Modal -->
+    <div class="trailer-modal" id="trailer-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>NXT Talks Trailer</h3>
+                <a href="#" class="close-btn" aria-label="Close modal">&times;</a>
+            </div>
+            <div class="modal-body">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <p>Watch the NXT Talks preview</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Companies Section -->
+    <section class="companies">
+        <div class="container">
+            <h2 class="section-title">Our Speakers Come From <br>Your Dream Companies</h2>
+
+            <div class="company-logos">
+                <div class="logo-row">
+                    <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-07/17/thumb/fitandfill/1200X900/1689574606-2001.png" alt="Swiggy logo" loading="lazy">
+                    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202402/65c0ae2e9b51c-following-a-three-month-beta-testing-phase-primarily-for-its-existing-customer-base--slice-is-now-ex-054517308-16x9.jpg?size=1280:720" alt="Slice logo" loading="lazy">
+                    <img src="https://avatars.githubusercontent.com/u/1459110?s=280&v=4" alt="IBM logo" loading="lazy">
+                    <img src="https://yt3.googleusercontent.com/Ub82oVs7TuqHki5LechxBBs2f4Uldl_6R0PAK5HbwJxucp_dPr-w5MGaxU3gnTx9IVs0e8Kg=s900-c-k-c0x00ffffff-no-rj" alt="Myntra logo" loading="lazy">
+                    <img src="https://www.mcafee.com/blogs/wp-content/uploads/2017/05/Social-Media-PF-Logo-Pic.jpg" alt="McAfee logo" loading="lazy">
+                    <img src="https://play-lh.googleusercontent.com/aM-diGZreiIMs9bKEcruqdIFq2ffoHGScQTvrKE9pYmLXsJIJjvtaPQhzqu6AGoSsg" alt="SuperK logo" loading="lazy">
+                    <img src="https://avatars.githubusercontent.com/u/660378?s=280&v=4" alt="FactSet logo" loading="lazy">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfGszLT_tkDX257h72i20YUOhnVCGhpr8-Tg&s" alt="NCR logo" loading="lazy">
+                </div>
+                <div class="logo-row">
+                    <img src="https://media.licdn.com/dms/image/v2/D560BAQGTKDmd1ddPOQ/company-logo_200_200/company-logo_200_200/0/1736153908593/msys_technologies_logo?e=2147483647&v=beta&t=K1pI_PGNvfDrhm3a0HEUfqlElDp0dAadnPL3PUMKa0w" alt="MSys Technologies logo" loading="lazy">
+                    <img src="https://mma.prnewswire.com/media/558720/4123153/Genpact_Logo.jpg?p=facebook" alt="Genpact logo" loading="lazy">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0L9pU1IjqhK0u8GC0kQBXDB2sj_nd4UDVQ&s" alt="Amazon logo" loading="lazy">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1?wid=406&hei=230&fit=crop" alt="Microsoft logo" loading="lazy">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c31566130735783.6186962073880.png" alt="Meta logo" loading="lazy">
+                    <img src="https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg" alt="Apple logo" loading="lazy">
+                    <img src="https://media.designrush.com/inspirations/129137/conversions/_1521201517_957_UberLogoPreview-preview.jpg" alt="Uber logo" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Collection Section -->
+    <section class="collection">
+        <div class="container">
+            <h2 class="section-title">A Rare Collection of Insider <br>Knowledge, All Yours!</h2>
+
+            <p class="section-description">
+                All secrets uncovered. Exclusive insights, Timely Advice and Personal Growth
+                Journeys straight from the tech experts.
+            </p>
+
+            <div class="categories" role="tablist">
+                <button class="category-btn active" role="tab" aria-selected="true"><i class="fas fa-fire" aria-hidden="true"></i> Trending</button>
+                <button class="category-btn" role="tab" aria-selected="false">All</button>
+                <button class="category-btn" role="tab" aria-selected="false">Tech</button>
+                <button class="category-btn" role="tab" aria-selected="false">Career</button>
+                <button class="category-btn" role="tab" aria-selected="false">CXO</button>
+                <button class="category-btn" role="tab" aria-selected="false">Productivity</button>
+                <button class="category-btn" role="tab" aria-selected="false">GSOC</button>
+                <button class="category-btn" role="tab" aria-selected="false">Panel</button>
+            </div>
+
+            <div class="podcast-cards">
+                <!-- Podcast Card 1 -->
+                <div class="podcast-card" tabindex="0">
+                    <div class="card-image">
+                        <img src="https://img.freepik.com/free-photo/medium-shot-smiley-man-work_23-2149622834.jpg" alt="Sandeep Gorthi - Programming Excellence Session" loading="lazy">
+                        <button class="trailer-btn"><span>Trailer</span> <i class="fas fa-play-circle" aria-hidden="true"></i></button>
+                        <label class="save-for-later">
+                            <input type="checkbox" class="save-checkbox">
+                            <i class="far fa-bookmark bookmark-icon" aria-hidden="true"></i>
+                            <i class="fas fa-bookmark bookmark-icon-filled" aria-hidden="true"></i>
+                            <span class="save-text">Save</span>
+                        </label>
+                    </div>
+                    <div class="card-content">
+                        <h3>An Engineering Manager at Uber Teaches Programming</h3>
+                        <div class="duration"><i class="far fa-clock" aria-hidden="true"></i> 45:17 Mins</div>
+                        <div class="speaker">
+                            <p class="speaker-name">Sandeep Gorthi</p>
+                            <p class="speaker-title">Engineering Manager at Uber</p>
+                        </div>
+                        <a href="#" class="learn-more">What You will Learn <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Podcast Card 2 -->
+                <div class="podcast-card" tabindex="0">
+                    <div class="card-image">
+                        <img src="https://img.freepik.com/free-photo/cheerful-young-caucasian-businessman_171337-727.jpg" alt="Pritesh Malode - Interview Skills Session" loading="lazy">
+                        <button class="trailer-btn"><span>Trailer</span> <i class="fas fa-play-circle" aria-hidden="true"></i></button>
+                        <label class="save-for-later">
+                            <input type="checkbox" class="save-checkbox">
+                            <i class="far fa-bookmark bookmark-icon" aria-hidden="true"></i>
+                            <i class="fas fa-bookmark bookmark-icon-filled" aria-hidden="true"></i>
+                            <span class="save-text">Save</span>
+                        </label>
+                    </div>
+                    <div class="card-content">
+                        <h3>A Sr. Recruiter at Amazon Teaches Acing Interviews</h3>
+                        <div class="duration"><i class="far fa-clock" aria-hidden="true"></i> 41:07 Mins</div>
+                        <div class="speaker">
+                            <p class="speaker-name">Pritesh Malode</p>
+                            <p class="speaker-title">Senior Recruiter at Amazon</p>
+                        </div>
+                        <a href="#" class="learn-more">What You will Learn <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Podcast Card 3 -->
+                <div class="podcast-card" tabindex="0">
+                    <div class="card-image">
+                        <img src="https://councils.forbes.com/profile/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Fcco-avatars%2F2328609c-6626-477a-8343-cdab9fe501b9.png&w=384&q=75" alt="Sanjay Sehgal - Time Management Session" loading="lazy">
+                        <button class="trailer-btn"><span>Trailer</span> <i class="fas fa-play-circle" aria-hidden="true"></i></button>
+                        <label class="save-for-later">
+                            <input type="checkbox" class="save-checkbox">
+                            <i class="far fa-bookmark bookmark-icon" aria-hidden="true"></i>
+                            <i class="fas fa-bookmark bookmark-icon-filled" aria-hidden="true"></i>
+                            <span class="save-text">Save</span>
+                        </label>
+                    </div>
+                    <div class="card-content">
+                        <h3>A Global CEO Teaches Mastering Time Management</h3>
+                        <div class="duration"><i class="far fa-clock" aria-hidden="true"></i> 56:32 Mins</div>
+                        <div class="speaker">
+                            <p class="speaker-name">Sanjay Sehgal</p>
+                            <p class="speaker-title">Chairman & CEO at Msys Technologies</p>
+                        </div>
+                        <a href="#" class="learn-more">What You will Learn <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-btn">
+                <a href="#access" class="btn btn-primary">Claim Free Access</a>
+                <p class="center-footnote">Get 1 Podcast worth <span class="strikethrough">₹2000</span> <span class="highlight">Free</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Students Say,<br>It's a Blockbuster!</h2>
+
+            <div class="testimonial-badge">
+                <span class="emoji" aria-hidden="true">😍</span> 25000+ Happy Feedbacks
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-cards">
+                    <!-- Testimonial Card 1 -->
+                    <div class="testimonial-card" tabindex="0">
+                        <div class="testimonial-header">
+                            <div class="testimonial-profile">
+                                <img src="https://img.freepik.com/free-photo/african-man-posed-street-city-wear-blue-shirt-black-pants_627829-2916.jpg" alt="Rahul Gunturi profile" class="profile-img" loading="lazy">
+                                <div class="testimonial-info">
+                                    <p class="testimonial-name">Rahul Gunturi <span class="testimonial-dot">·</span> 1st</p>
+                                    <p class="testimonial-position">Fellow at CCBP 4.0 academy | NxtWave</p>
+                                </div>
+                            </div>
+                            <a href="#" class="linkedin-icon" aria-label="LinkedIn profile">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <p class="testimonial-text">
+                            These podcasts are beneficial to us as it acts as a bridge, helping us to understand what to do next and how to face situations in life. Thanks ...
+                            <a href="#" class="linkedin-link">Read More on LinkedIn</a>
+                        </p>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div class="testimonial-card" tabindex="0">
+                        <div class="testimonial-header">
+                            <div class="testimonial-profile">
+                                <img src="https://img.freepik.com/free-photo/south-asian-indian-male-student-wear-eyeglasses-casual-posed-outdoor_627829-5198.jpg" alt="Sai Rohith profile" class="profile-img" loading="lazy">
+                                <div class="testimonial-info">
+                                    <p class="testimonial-name">Sai Rohith <span class="testimonial-dot">·</span> 1st</p>
+                                    <p class="testimonial-position">Fellow at CCBP 4.0 academy | NxtWave</p>
+                                </div>
+                            </div>
+                            <a href="#" class="linkedin-icon" aria-label="LinkedIn profile">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <p class="testimonial-text">
+                            As a CCBP 4.0 Academy student, I feel very lucky that I get access to the knowledge of top-notch experts with ease. Thanks to NxtWave ...
+                            <a href="#" class="linkedin-link">Read More on LinkedIn</a>
+                        </p>
+                    </div>
+
+                    <!-- Testimonial Card 3 -->
+                    <div class="testimonial-card" tabindex="0">
+                        <div class="testimonial-header">
+                            <div class="testimonial-profile">
+                                <img src="https://www.shutterstock.com/image-photo/young-bearded-indian-student-backpack-260nw-2047005893.jpg" alt="Neha Panakananti profile" class="profile-img" loading="lazy">
+                                <div class="testimonial-info">
+                                    <p class="testimonial-name">Neha Panakananti</p>
+                                    <p class="testimonial-position">Fellow at CCBP 4.0 academy | NxtWave</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            These podcasts are really good from a student perspective and gives manager's perspective on real-world challenges we might face in our careers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Slider Navigation -->
+                <button class="slider-nav prev" aria-label="Previous testimonials">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <button class="slider-nav next" aria-label="Next testimonials">
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                <!-- Slider Pagination -->
+                <div class="slider-pagination" role="tablist">
+                    <span class="pagination-dot active" role="tab" aria-selected="true" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                    <span class="pagination-dot" role="tab" aria-selected="false" tabindex="0"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer Section -->
+    <section class="countdown-section">
+        <div class="container">
+            <h2 class="section-title">Limited Time Offer</h2>
+            <p class="section-description">Claim your free podcast access before the offer expires</p>
+
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <div class="countdown-value">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-value">12</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-value">45</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-value">30</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+
+            <div class="center-btn">
+                <a href="#access" class="btn btn-primary pulse-animation">Claim Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Info Section -->
+    <section class="podcast-info" id="access">
+        <div class="container">
+            <h2 class="section-title">NxtWave's Empowering Podcast Series<br>to Shape your Dream Career</h2>
+
+            <div class="podcast-details">
+                <div class="podcast-stats">
+                    <div class="stat-item">
+                        <span class="mic-icon" aria-hidden="true">🎙️</span> 100+ Podcasts
+                    </div>
+                    <div class="stat-item">
+                        Each worth ₹2000/-
+                    </div>
+                    <div class="stat-item">
+                        FREE for NxtWave Academy students
+                    </div>
+                    <a href="#access" class="btn btn-primary">Claim Free Access</a>
+                </div>
+
+                <div class="access-form">
+                    <h2 class="form-title">Claim Your<br>Free Access to a Podcast</h2>
+                    <form novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required aria-required="true" pattern="[A-Za-z ]{2,}" title="Please enter a valid name with at least 2 characters">
+                            <span class="error-message">Please enter a valid name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <div class="phone-input">
+                                <div class="country-code">
+                                    <span>IN</span>
+                                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                                </div>
+                                <input type="tel" id="phone" placeholder="+91 Enter 10 Digit Mobile Number" required aria-required="true" pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number">
+                                <span class="error-message">Please enter a valid 10-digit number</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Claim Free Access</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-main">
+                    <!-- Company Info Column -->
+                    <div class="footer-column company-info">
+                        <div class="footer-logo">
+                            <img src="https://yt3.googleusercontent.com/mFIkzYPq6RfSy0if-b9eU2cfQbCC1aER3bxSxZr9Z1_H48qDgvpmjXQLHif-TI3zviRZmOsv_Q=s900-c-k-c0x00ffffff-no-rj" alt="NXT WAVE logo" loading="lazy">
+                        </div>
+                        <div class="reach-us">
+                            <h3>Reach Us</h3>
+                            <a href="mailto:support@nxtwave.tech" class="email-link">
+                                <i class="far fa-envelope" aria-hidden="true"></i> support@nxtwave.tech
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-icon facebook" aria-label="Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon twitter" aria-label="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon youtube" aria-label="YouTube">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links Column -->
+                    <div class="footer-column quick-links">
+                        <h3>Quick Links</h3>
+                        <div class="links-columns">
+                            <div class="links-column">
+                                <a href="#">Home</a>
+                                <a href="#">Academy</a>
+                                <a href="#">Intensive</a>
+                                <a href="#">Hire with us</a>
+                            </div>
+                            <div class="links-column">
+                                <a href="#">Contact Us</a>
+                                <a href="#">About Us</a>
+                                <a href="#">Reviews</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Payment Methods Column -->
+                    <div class="footer-column payment-methods">
+                        <h3>Payment Methods</h3>
+                        <div class="payment-icons">
+                            <div class="payment-row">
+                                <div class="payment-icon visa">
+                                    <img src="https://corporate.visa.com/content/dam/VCOM/corporate/about-visa/images/visa-logo-800x450.jpg" alt="Visa" loading="lazy">
+                                </div>
+                                <div class="payment-icon mastercard">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ7NLEhx9NXhhdHXQS4f8ypbiQRec72Zw_Rw&s" alt="Mastercard" loading="lazy">
+                                </div>
+                                <div class="payment-icon maestro">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnKsiUuRNac04_7xrkX0eUZjQ-DcjheGUL_Q&s" alt="Maestro" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="payment-row">
+                                <div class="payment-icon razorpay">
+                                    <img src="https://www.ecommerce-nation.com/wp-content/uploads/2019/02/razorpay.webp" alt="Razorpay" loading="lazy">
+                                </div>
+                                <div class="payment-icon upi">
+                                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-upi-logo-icon-download-in-svg-png-gif-file-formats--unified-payments-interface-payment-money-transfer-logos-icons-1747946.png?f=webp" alt="UPI" loading="lazy">
+                                </div>
+                                <div class="payment-icon rupay">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYhxxKLupVDxsYmgkrsk5Hha3WJHjeoiW8xA&s" alt="RuPay" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="company-address">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <p>NxtWave, WeWork<br>
+                                Rajapushpa Summit,<br>
+                                Nanakramguda Rd, Financial<br>
+                                District, Manikonda Jagir,<br>
+                                Telangana 500032</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Grievance Redressal</a>
+                    <a href="#">Corporate Information</a>
+                </div>
+                <p class="copyright">© 2025 NxtWave. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
